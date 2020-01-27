@@ -1,0 +1,19 @@
+[package]
+name = "win-win"
+version = "0.1.0"
+authors = ["Raph Levien <raph.levien@gmail.com>"]
+license = "MIT/Apache-2.0"
+categories = ["os::windows-apis", "gui"]
+readme = "README.md"
+description = "A semi-opinionated way to create windows on Windows."
+edition = "2018"
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+
+[dependencies.winapi]
+version = "0.3.8"
+features = ["winuser"]
+
+[dependencies]
+wio = "0.2.2"
