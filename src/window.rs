@@ -319,7 +319,7 @@ impl WindowClass {
     }
 
     /// Create a window class reference from a name.
-    /// 
+    ///
     /// This function is useful if the window class has already been registered, either
     /// through a successful builder or some other means.
     pub fn from_name(class_name: impl AsRef<OsStr>) -> WindowClass {

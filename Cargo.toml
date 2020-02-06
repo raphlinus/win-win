@@ -1,11 +1,12 @@
 [package]
 name = "win-win"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Raph Levien <raph.levien@gmail.com>"]
 license = "MIT/Apache-2.0"
 categories = ["os::windows-apis", "gui"]
 readme = "README.md"
 description = "A semi-opinionated way to create windows on Windows."
+repository = "https://github.com/raphlinus/win-win"
 edition = "2018"
 
 [package.metadata.docs.rs]
