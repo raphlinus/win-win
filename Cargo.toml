@@ -11,10 +11,19 @@ edition = "2018"
 
 [package.metadata.docs.rs]
 default-target = "x86_64-pc-windows-msvc"
+all-features = true
+
+[features]
+kb = ["keyboard-types"]
 
 [dependencies.winapi]
 version = "0.3.8"
 features = ["winuser"]
+
+[dependencies.keyboard-types]
+version = "0.5.0"
+optional = true
+default-features = false
 
 [dependencies]
 wio = "0.2.2"
