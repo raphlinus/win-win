@@ -11,4 +11,4 @@ pub use runloop::runloop;
 pub use window::{WindowBuilder, WindowClass, WindowClassBuilder, WindowProc};
 
 #[cfg(feature = "kb")]
-pub use keyboard::{KeyboardState};
+pub use keyboard::{key_to_vk, KeyboardState};
